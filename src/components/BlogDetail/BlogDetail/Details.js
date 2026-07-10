@@ -1,5 +1,4 @@
 import React from 'react';
-import Construction from "../../../images/blog2.png"
 import { Container, Col, Row } from 'react-bootstrap'
 import quotation1 from "../../../images/quotation1.svg"
 import quotation2 from "../../../images/quotation2.svg"
