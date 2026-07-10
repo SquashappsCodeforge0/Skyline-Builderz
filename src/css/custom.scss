@@ -1,0 +1,21 @@
+@media (min-width: 1400px) {
+    .App .container, .App .container-lg, .App .container-md, .App .container-sm, .App .container-xl, .App .container-xxl {
+        max-width: 1400px;
+    }
+}
+
+
+// Override Bootstrap variables before importing Bootstrap styles
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1400px, // Set to 1400px
+  xxl: 1400px // Set to 1400px
+);
+
+// Import Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+
